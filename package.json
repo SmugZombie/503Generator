@@ -1,0 +1,15 @@
+{
+  "name": "503checker",
+  "version": "1.0.0",
+  "description": "Probes for 503 responses",
+  "main": "./app/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app/app.js"
+  },
+  "author": "Ron Egli <ron@r-egli.com>",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}
